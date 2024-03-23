@@ -8,9 +8,8 @@ const works = await Astro.glob("../pages/works/*.md");
 const projects = await Astro.glob("../pages/projects/*.md");
 const studies = await Astro.glob("../pages/studies/*.md");
 const certificates = await Astro.glob("../pages/certificates/*.md");
-const blogs = await Astro.glob("../pages/blogs/*.md");
 const contact = await Astro.glob("../pages/contact/*.md");
-const PDF = "/cv-20240219.pdf";
+const PDF = "/Jonathan_Lee_CV_2024.pdf";
 ---
 
 <div class="join join-vertical gap-1">
@@ -89,22 +88,6 @@ const PDF = "/cv-20240219.pdf";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Blogs"} icon={"carbon:pen"}>
-    {
-      blogs.map((item) => {
-        return (
-          <Card
-            title={item.frontmatter.title}
-            timeframe={item.frontmatter.date}
-            description={item.compiledContent()}
-            url={item.frontmatter.url}
-            url_name={item.frontmatter.url_name}
-          />
-        );
-      })
-    }
-  </AccordionLayout>
-
   <AccordionLayout title={"Files"} icon={"carbon:volume-file-storage"}>
     <div class="flex justify-center w-full">
       <div
@@ -114,12 +97,12 @@ const PDF = "/cv-20240219.pdf";
           <object data={PDF} type="application/pdf" width="100%"></object>
         </figure>
         <div class="card-body">
-          <h2 class="card-title">Resume</h2>
-          <p>View and download my resume by clicking on the button below</p>
+          <h2 class="card-title">CV/Resume</h2>
+          <p>View and download my CV/resume by clicking on the button below</p>
           <div class="card-actions justify-end">
             <a target="_blank" href={PDF}>
               <button class="btn btn-outline">
-                <p>Download resume</p>
+                <p>Download CV/resume</p>
                 <Icon name="carbon:document-pdf" class="w-6 h-6 ml-1" />
               </button>
             </a>
