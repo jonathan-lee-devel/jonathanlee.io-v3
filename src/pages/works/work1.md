@@ -1,6 +1,6 @@
 ---
 title: Software Engineer
-date: 10/2023 - Present
+date: 11/2023 - Present
 url: https://fidelity.com
 location: Galway, Ireland
 org: Fidelity Investments

@@ -1,7 +1,7 @@
 ---
 title: Sparrow
 url: https://github.com/jonathan-lee-devel/sparrow
-tags: ["Angular", "TypeScript", "Node.js", "Express", "MongoDB"]
+tags: ["Angular", "TypeScript", "Node.js", "Express", "MongoDB", "Kubernetes"]
 date: "2023"
 ---
 
