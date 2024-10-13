@@ -1,6 +1,6 @@
 ---
 title: RoomyLedger.com
-url: https://www.roomyledger.com
+url: https://github.com/jonathan-lee-devel/roomyledger
 tags: ["Angular", "TypeScript", "NestJS", "PostgreSQL", "NgRx", "Docker"]
 date: "2024"
 ---

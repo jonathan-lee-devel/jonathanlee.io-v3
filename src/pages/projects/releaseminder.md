@@ -1,6 +1,6 @@
 ---
 title: ReleaseMinder.io
-url: https://www.releaseminder.io
+url: https://github.com/jonathan-lee-devel/releaseminder
 tags: ["Angular", "TypeScript", "NestJS", "PostgreSQL", "NgRx", "Docker", "Microservices"]
 date: "2024"
 ---
