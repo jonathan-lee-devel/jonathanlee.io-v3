@@ -1,5 +1,5 @@
 ---
-import { Icon } from "astro-icon/components";
+import {Icon} from "astro-icon/components";
 import * as about from "../pages/about/about.md";
 ---
 
@@ -25,11 +25,13 @@ import * as about from "../pages/about/about.md";
           {about.frontmatter.name}
         </h1>
       </div>
-      <h2 class="text-lg mb-2 text-secondary">
-        {about.frontmatter.designation}
-      </h2>
       <div class="flex items-center justify-center mt-1">
-        <Icon name="carbon:location" class="w-4 h-4 mr-1" />
+        <h2 class="text-center text-lg mb-2 text-secondary">
+          {about.frontmatter.designation}
+        </h2>
+        </div>
+      <div class="flex items-center justify-center mt-1">
+        <Icon name="carbon:location" class="w-4 h-4 mr-1"/>
         <p class="text-sm text-secondary">{about.frontmatter.location}</p>
       </div>
     </div>
